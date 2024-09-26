@@ -7,9 +7,6 @@ class HikeImage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 275,
-      color: Colors.greenAccent,
-    );
+    return Image.asset("assets/images/livecoding.jpg");
   }
 }
